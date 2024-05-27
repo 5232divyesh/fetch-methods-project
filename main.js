@@ -55,7 +55,7 @@ function cart(image, title, founder, category, price, id) {
     
         <!-- <div class="card" data-id="1"> -->
                 <div class="card-img">
-                  <a href="description.html">
+                  <a href="description.html?image=${encodeURIComponent(image)}&title=${encodeURIComponent(title)}&founder=${encodeURIComponent(founder)}&category=${encodeURIComponent(category)}&price=${encodeURIComponent(price)}">
                       <img src="${image}" alt="">
                   </a>
                 </div>
